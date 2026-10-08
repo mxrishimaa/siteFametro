@@ -1,5 +1,22 @@
-.title {
-    font-family: "Changa One", sans-serif;
-    font-size: 1.5rem;
-    
+header {
+    display: flex;
+    justify-content: auto;
+    align-items: center;
+    margin: 15px;
+
+    .buttons {
+        margin: 10px;
+        display: flex;
+        gap: 40px;
+        width: 60%;
+
+    }
+
+    .title {
+        font-family: "Changa One", sans-serif;
+        font-size: 1.5rem;
+        color: rgb(219, 61, 3);
+        background: #fff;
+        margin-right: 60px;
+    }
 }
